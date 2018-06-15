@@ -29,7 +29,6 @@ public class DALEmployee {
         return sqLiteDatabase.insert(DBHelper.TABLE_EMPLOYEE,null,contentValues);
     }
 
-
     //retrieve
     public ArrayList<Employee> getAllEmployee(){
         ArrayList<Employee> employees = new ArrayList<>();
